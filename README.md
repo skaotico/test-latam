@@ -12,22 +12,31 @@ dentro de la carpeta del proyecto ejecutar un mvn clean install, dentro de la ca
 
 
 
-
 endpoint -- localhost:8080/api/persona/saludo
+
 @post
-	 Body
-	 <code>
-			{
-			  "apellidos": "andrades reyes",
-			  "nacimineto": "1987-05-22",
-			  "nombres": "yosemar"
-			}
-	</code>
-	
+
+
+
+​	 Body
+​	 <code>
+​			{
+​			  "apellidos": "andrades reyes",
+​			  "nacimineto": "1987-05-22",
+​			  "nombres": "yosemar"
+​			}
+​	</code>
+​	
+
 servicio cuenta con persistencia en h2 
 
 endpoint -- localhost:8080/api/persona/ListSaludo
+
 @get
+
+
+
+
 
 <code>
 	servicio que lista personas ingresadas
